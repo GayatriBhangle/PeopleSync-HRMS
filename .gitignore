@@ -1,0 +1,40 @@
+# =========================
+# Java / Spring Boot
+# =========================
+target/
+.classpath
+.project
+.settings/
+
+# =========================
+# React / Node
+# =========================
+node_modules/
+dist/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# =========================
+# .NET / Visual Studio
+# =========================
+.vs/
+bin/
+obj/
+
+# .NET local configuration / secrets
+appsettings.json
+appsettings.Development.json
+
+# Visual Studio user files
+*.user
+*.suo
+
+# =========================
+# Backup / archive files
+# =========================
+*.zip
+*.rar
+*.7z
